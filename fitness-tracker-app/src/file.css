@@ -1,4 +1,6 @@
-
+* {
+    background: rgb(192, 192, 235);
+}
 
 .nav-links {
     flex: 1;
@@ -24,3 +26,30 @@ nav a:hover {
     background-color: green;
     color: wheat;
 }
+
+.title h1 {
+    color: blue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.title p {
+    text-align: center;
+    color: green;
+    position: relative;
+}
+
+.title img {
+    border-radius: 45%;
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title h5 {
+    text-align: center;
+    top: 800%;
+}
+
